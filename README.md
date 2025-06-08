@@ -1,12 +1,73 @@
-# React + Vite
+# Abdulla Al Harun – Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my personal portfolio website showcasing selected frontend development projects and skills. Built with modern technologies, it represents my work, design approach, and development capabilities.
 
-Currently, two official plugins are available:
+## 🔗 Live Website
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+👉 [Visit Portfolio](https://your-netlify-site-url.netlify.app)  
+*(Replace with your actual Netlify link after deployment)*
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📁 Projects Featured
+
+### 1. **BookScape – Holidaze App**
+A full-stack accommodation booking platform developed using **React**, **Tailwind CSS**, and the Noroff API.
+
+- User authentication, venue management, booking system.
+- Built for the final exam project (JavaScript Frameworks).
+
+🔗 [Live Site](https://book-scape-app.netlify.app)  
+📂 [GitHub Repo](https://github.com/AbdullaAlHarun/Bookscape)
+
+---
+
+### 2. **Community Science Museum**
+An educational website aimed at children and families, designed using **HTML** and **CSS**.
+
+- Responsive, WCAG-compliant design.
+- Built for Semester Project 2.
+
+🔗 [Live Site](https://science-museum-tau.vercel.app/index.html)  
+📂 [GitHub Repo](https://github.com/AbdullaAlHarun/science-museum)
+
+---
+
+### 3. **Antiochia Grill – Restaurant Website**
+A modern, responsive site for a Turkish restaurant with menu and delivery integration.
+
+- HTML & CSS, deployed with Netlify.
+- Live for real-world use.
+
+🔗 [Live Site](https://antiochiagrill.no)  
+📂 [GitHub Repo](https://github.com/AbdullaAlHarun/antiochia-grill)
+
+---
+
+## 🛠️ Tech Stack
+
+- **React**
+- **Tailwind CSS**
+- **HTML5 / CSS3**
+- **Vite**
+- **JavaScript**
+- **Netlify** & **Vercel** for deployment
+- **Figma** for UI design
+
+---
+
+## 📌 About Me
+
+I'm Abdulla Al Harun — a creative and passionate **Frontend Developer** focused on crafting accessible, user-centered web experiences. This portfolio demonstrates my skills in both design and code.
+
+Feel free to connect:
+
+- [LinkedIn](https://www.linkedin.com/in/abdullaalharun/)
+- [GitHub](https://github.com/AbdullaAlHarun)
+- [YouTube](https://www.youtube.com/@ExploreArounds)
+
+---
+
+## 📄 License
+
+This project is open-source and for portfolio demonstration purposes only.

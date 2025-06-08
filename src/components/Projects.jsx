@@ -4,7 +4,7 @@ import SectionHeader from "../components/SectionHeader";
 
 import bookscapeImg from "../assets/project2.png";
 import scienceMuseumImg from "../assets/project3.png";
-import antiochiaImg from "../assets/project1.png"; 
+import antiochiaImg from "../assets/project1.png";
 
 const projectData = [
   {
@@ -45,7 +45,9 @@ const Projects = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-8">
         {projectData.map((project, index) => (
           <Link to={project.link} key={index}>
-            <div className="bg-[var(--card-bg)] rounded-xl p-4 shadow-sm hover:shadow-md transition">
+            <div className="bg-[var(--card-bg)] rounded-xl p-4 shadow-sm hover:shadow-md transition h-full flex flex-col">
+              
+              {/* Thumbnail */}
               <div className="w-full h-[260px] overflow-hidden rounded-xl mb-4">
                 <img
                   src={project.image}
@@ -53,7 +55,9 @@ const Projects = () => {
                   className="w-full h-full object-cover rounded-lg"
                 />
               </div>
-              <div className="flex items-start justify-between gap-3 px-2">
+
+              {/* Text Content with CTA */}
+              <div className="flex-1 flex flex-col justify-between px-2">
                 <div>
                   <h4 className="text-xl font-bold hover:text-[var(--prim-color)] transition">
                     {project.title}
@@ -62,7 +66,7 @@ const Projects = () => {
                     {project.subtitle}
                   </span>
                 </div>
-                <div className="text-[var(--text-color)] text-xl border border-[var(--card-border)] p-3 rounded-full hover:bg-[var(--prim-color)] hover:text-white transition">
+                <div className="text-[var(--text-color)] text-xl border border-[var(--card-border)] p-3 rounded-full hover:bg-[var(--prim-color)] hover:text-white transition self-start mt-4">
                   <i className="ri-arrow-right-line"></i>
                 </div>
               </div>
