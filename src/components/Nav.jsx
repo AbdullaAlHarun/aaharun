@@ -52,7 +52,7 @@ function Nav() {
       {/* Mobile Top Bar */}
       <nav className="lg:hidden fixed top-0 left-0 w-full z-50 bg-[var(--bg-color)] border-b border-[var(--prim-color)] flex justify-between items-center px-4 py-3">
         <div className="bg-[var(--prim-color)] text-[var(--logo-color)] font-bold text-xl px-4 py-2">
-          <a href="#">M</a>
+          <a href="#">A</a>
         </div>
 
         <div className="flex gap-4 items-center">

@@ -1,4 +1,3 @@
-// src/components/Header.jsx
 import { ReactTyped } from "react-typed";
 import desktopBg from "../assets/header_new.png";
 import mobileBg from "../assets/mobile_bg.png";
