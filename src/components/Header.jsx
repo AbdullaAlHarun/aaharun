@@ -14,33 +14,42 @@ const Header = () => {
         backgroundImage: `url(${mobileBg})`,
       }}
     >
+      {/* Desktop background layer */}
       <div
         className="absolute inset-0 w-full h-full bg-no-repeat bg-cover bg-right-top hidden md:block"
         style={{ backgroundImage: `url(${desktopBg})` }}
         aria-hidden="true"
       ></div>
 
+      {/* Content container */}
       <div className="relative z-10 w-full max-w-[1280px] mx-auto px-6 md:px-12 lg:pl-[180px] py-12">
         <small className="text-white text-lg tracking-[0.3em] uppercase font-mono block mb-4">
           Hello , <span role="img" aria-label="waving hand">👋</span> There
         </small>
 
-        <h1 className="text-white text-4xl sm:text-3xl font-bold flex flex-wrap items-center gap-2 mb-6">
-          I, M{" "}
-          <span className="text-[var(--prim-color)]">
-            <ReactTyped
-              strings={["Abdulla Al Harun", "Frontend Developer", "UI / UX Designer"]}
-              typeSpeed={50}
-              backSpeed={50}
-              loop
-            />
-          </span>
-        </h1>
+        {/* Fixed line break issue */}
+      <h1 className="text-white text-[1.5rem] sm:text-3xl md:text-4xl font-bold flex flex-nowrap items-center gap-2 mb-6 leading-tight min-w-0">
+        <span className="whitespace-nowrap shrink-0">I, M</span>
+        <span className="text-[var(--prim-color)] whitespace-nowrap text-ellipsis overflow-hidden">
+          <ReactTyped
+            strings={[
+              "Abdulla Al Harun",
+              "Frontend Developer",
+              "UI / UX Designer",
+            ]}
+            typeSpeed={50}
+            backSpeed={50}
+            loop
+          />
+        </span>
+      </h1>
+
 
         <p className="text-white text-opacity-90 max-w-md text-lg mb-8 leading-relaxed">
           Passionate and creative Frontend Developer, dedicated to crafting exceptional web experiences.
         </p>
 
+        {/* Social icons */}
         <div className="flex flex-wrap gap-4 mb-8">
           {[
             { href: "https://www.facebook.com/44mehedi", label: "Facebook", icon: "ri-facebook-line" },
@@ -62,6 +71,7 @@ const Header = () => {
           ))}
         </div>
 
+        {/* Resume download */}
         <a
           href={resumePdf}
           download
