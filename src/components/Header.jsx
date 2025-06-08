@@ -25,7 +25,7 @@ const Header = () => {
           Hello , <span role="img" aria-label="waving hand">👋</span> There
         </small>
 
-        <h1 className="text-white text-4xl sm:text-5xl font-bold flex flex-wrap items-center gap-2 mb-6">
+        <h1 className="text-white text-4xl sm:text-3xl font-bold flex flex-wrap items-center gap-2 mb-6">
           I, M{" "}
           <span className="text-[var(--prim-color)]">
             <ReactTyped

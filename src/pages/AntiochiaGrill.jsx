@@ -1,4 +1,6 @@
+import React from "react";
 import SectionHeader from "../components/SectionHeader";
+import BackButton from "../components/BackButton";
 import antiochiaImg from "../assets/project1.png";
 
 const AntiochiaGrill = () => (
@@ -9,6 +11,8 @@ const AntiochiaGrill = () => (
       color: "var(--text-color)",
     }}
   >
+    <BackButton />
+
     <SectionHeader
       title="Antiochia Grill - Turkish Street Food"
       subtitle="Modern restaurant website with responsive UI and menu showcase"

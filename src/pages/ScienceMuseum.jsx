@@ -1,5 +1,6 @@
 import React from "react";
-import museumImg from "../assets/project3.png"; 
+import museumImg from "../assets/project3.png";
+import BackButton from "../components/BackButton";
 
 const ScienceMuseum = () => {
   return (
@@ -10,7 +11,8 @@ const ScienceMuseum = () => {
         color: "var(--text-color)",
       }}
     >
-      {/* Title */}
+      <BackButton />
+
       <div className="mb-10">
         <h1 className="text-4xl font-bold text-[var(--text-color)] mb-3">
           ✦ Community Science Museum Website
@@ -22,7 +24,6 @@ const ScienceMuseum = () => {
         </p>
       </div>
 
-      {/* Project Image */}
       <div className="mb-10">
         <img
           src={museumImg}
@@ -34,7 +35,6 @@ const ScienceMuseum = () => {
         </p>
       </div>
 
-      {/* Links */}
       <div className="flex flex-wrap gap-6 mb-12">
         <a
           href="https://science-museum-tau.vercel.app/index.html"
@@ -54,14 +54,13 @@ const ScienceMuseum = () => {
         </a>
       </div>
 
-      {/* Description */}
       <div className="space-y-6 text-base sm:text-lg leading-relaxed">
         <h3 className="text-2xl font-semibold text-[var(--prim-color)] mt-8">
           Project Scope & Purpose
         </h3>
         <p>
           This project was built for the <strong>Community Science Museum</strong>, targeting curious
-          children aged 7-15 and their families. The goal was to design an informative and engaging
+          children aged 7–15 and their families. The goal was to design an informative and engaging
           website that appeals to both kids and adults — without being condescending. The site had
           to be clear, fun, and educational, while responsive and accessible on all devices.
         </p>
