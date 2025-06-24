@@ -67,8 +67,9 @@ const About = () => {
       <div className="mt-4 max-w-4xl" style={{ color: "var(--text-color)" }}>
         {activeTab === "technologies" && (
           <ul className="space-y-2 text-base sm:text-lg list-disc pl-5">
-            <li>React, Redux, Express.js, Next.js, MongoDB</li>
-            <li>Tailwind CSS, SCSS</li>
+            <li>React, Redux, Express.js, Next.js</li>
+            <li>SQL, MongoDB, </li>
+            <li>Tailwind CSS, Bootstrap, SCSS</li>
             <li>JavaScript, TypeScript</li>
             <li>Figma, Adobe Photoshop, Premiere pro</li>
             <li>Git, GitHub</li>
