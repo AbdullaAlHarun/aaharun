@@ -4,8 +4,7 @@ This is my personal portfolio website showcasing selected frontend development p
 
 ## 🔗 Live Website
 
-👉 [Visit Portfolio](https://your-netlify-site-url.netlify.app)  
-*(Replace with your actual Netlify link after deployment)*
+👉 [Visit Portfolio](https://abdullaalharun.netlify.app/)  
 
 ---
 
